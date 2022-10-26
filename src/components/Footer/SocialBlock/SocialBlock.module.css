@@ -1,0 +1,32 @@
+.footerSocial {
+    display: flex;
+}
+
+.logo {
+    color: #2D2D2F;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    margin-right: 32px;
+}
+
+.leftBlock {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 40px 50px;
+}
+
+.rightBlock {
+    flex: 0 1 350px;
+    padding: 40px 0;
+}
+
+.rightBlock .apps {
+    display: flex;
+    margin: 10px 0;
+}
+
+.rightBlock .apps  div {
+    margin-right: 20px;
+}

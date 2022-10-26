@@ -1,0 +1,13 @@
+.socialIconsBlock {
+    display: flex;
+    margin: 10px 0;
+}
+
+.socialIconsBlock > div {
+    display: flex;
+    margin-right: 15px;
+}
+
+.socialIconsBlock > div:last-child {
+    margin-right: 0;
+}
