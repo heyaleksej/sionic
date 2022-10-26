@@ -4,12 +4,13 @@ import SocialIcons from '../SocialIcons/SocialIcons';
 import Icon from "../SocialIcons/Icon";
 import googlePay from '../../../assets/images/social/google-play.svg';
 import appStore from '../../../assets/images/social/app-store.svg';
+import {Logo} from "../../common/AppLogo/Logo";
 
 export const SocialBlock = () => {
     return (
         <div className={style.footerSocial}>
             <div className={style.leftBlock}>
-                <div className={style.logo}>React</div>
+                <Logo/>
                 <div> <SocialIcons/> </div>
             </div>
 
