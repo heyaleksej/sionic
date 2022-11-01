@@ -1,0 +1,43 @@
+.footer {
+    background: #F8F8F8;
+    height: 215px;
+    margin-top: auto;
+}
+
+.bottomText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8F8F8;
+    height: 30px;
+
+
+}
+
+.bottomText a, p {
+    display: inline-block;
+    margin: 5px 5px 15px;
+    text-decoration: none;
+    color: #8D8D8E;
+    transition: all .3s ease-out;
+    cursor: pointer;
+
+}
+
+.bottomText a:hover {
+    color: #2D2D2F;
+}
+
+@media screen and (max-width: 600px) {
+    .bottomText {
+    }
+
+    .bottomText a, p {
+        margin: 2px 2px 5px;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+
+

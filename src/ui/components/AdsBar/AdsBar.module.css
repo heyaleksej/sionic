@@ -1,0 +1,61 @@
+.sidebar {
+  position: relative;
+  width: 20%;
+  margin-bottom: 80px;
+  height: max-content;
+  z-index: 1000;
+}
+
+
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10.5em;
+  border-radius: 1.25em;
+  margin: 10px;
+}
+
+.discounts{
+  border: 1px solid plum;
+}
+
+.discountsText{
+  padding: 15px;
+  align-items: center;
+  color: var(--accent_blue);
+  font-size: large;
+}
+
+.btn{
+  background-color: var(--accent_blue);
+  color: white;
+  width: 70%;
+  margin: 15px;
+  text-align: center;
+}
+
+.btn:hover{
+  color: blue;
+
+}
+
+.text {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--secondary_white);
+  width: 8.336em;
+}
+
+.banner:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+  .sidebar{
+    display: none;
+  }
+}

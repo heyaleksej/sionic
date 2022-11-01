@@ -1,0 +1,22 @@
+.socialIconsBlock {
+    display: flex;
+    margin: 10px 0;
+}
+
+.socialIconsBlock > div {
+    display: flex;
+    margin-right: 15px;
+}
+
+.socialIconsBlock > div:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .socialIconsBlock {
+        justify-content: center ;
+        margin: 2px 0;
+
+    }
+
+}

@@ -1,0 +1,49 @@
+body{
+    font-family: 'Raleway';
+
+}
+
+.wrapper{
+    display: flex;
+    padding-left: 51px;
+    padding-right: 4px;
+}
+
+h1 h2 h3 h4 h5 h6 span {
+    white-space: nowrap;
+}
+
+img {
+    object-fit: cover;
+}
+
+h1 {
+    all: unset;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+h2 {
+    all: unset;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+h3 {
+    all: unset;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h4 {
+    all: unset;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+span {
+    all: unset;
+    font-weight: 400;
+    font-size: 14px;
+}
+

@@ -1,0 +1,23 @@
+:root {
+    --background: #FFF;
+    --accent_blue: #2967FF;
+    --primary_dark: #2D2D2F;
+    --secondary_white: #FFFFFF;
+    --secondary_dark: #8D8D8E;
+    --secondary_blue: #F0F4FB;
+    --transition: 0.2s;
+    --secondary_menu_blue: #AEC2EA;
+    --category_1: #0f48d3;
+    --category_2: #1b5407;
+    --category_3: #d78916;
+    --category_4: #ce1515;
+    --category_5: #4307ad;
+    --category_6: #06645c;
+    --category_7: #3a081a;
+    --category_8: #3b3d3a;
+    --category_9: #ff29d4;
+    --category_10: #ff2929;
+
+}
+
+

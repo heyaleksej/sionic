@@ -1,0 +1,63 @@
+.footerSocial {
+    display: flex;
+    background: #F8F8F8;
+}
+
+.wrapper{
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+
+.leftBlock {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 10px 51px;
+
+}
+
+.rightBlock {
+    flex: 0 1 350px;
+    padding: 10px 0;
+}
+
+.rightBlock .apps {
+    display: flex;
+    margin: 10px 0;
+}
+
+.rightBlock .apps  div {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .footerSocial {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .leftBlock {
+        padding: 0 3px 0 3px;
+        justify-content: space-around;
+
+    }
+    .install{
+        display: none;
+    }
+
+    .rightBlock {
+        padding: 2px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .rightBlock .apps  div {
+        margin: 0 6px 0 6px;
+    }
+
+}
