@@ -27,7 +27,6 @@ function App() {
 
     useEffect(() => {
 
-        //HYDRATE STORE
         const cart = localStorage.getItem('cart')
         const ordersHistory = localStorage.getItem('ordersHistory')
         if (cart) {
@@ -37,8 +36,6 @@ function App() {
             dispatch(hydrateOrdersHistory(JSON.parse(ordersHistory)))
         }
 
-
-        //GET CATEGORIES
 
         productsApi.getProductVariationProperties({
             sort: ["id", 'ASC']

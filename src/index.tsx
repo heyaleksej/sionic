@@ -4,7 +4,6 @@ import App from './App';
 import {Provider} from "react-redux";
 import {store} from "./bll/reduxOrm/schema";
 import {ThemeProvider} from "4c656f_react_ui_kit";
-// import cartImg from './../../../assets/images/cart.jpg'
 
 
 const root = ReactDOM.createRoot(

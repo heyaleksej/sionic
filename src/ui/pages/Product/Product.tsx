@@ -148,7 +148,7 @@ const Product: FC<ProductProps> = (props: ProductProps) => {
                 </div>
                 <DropDown
                     colorIndex={'1'}
-                    label={variations.get(variationId)?.id.toString() ?? 'Выбать'}
+                    label={variations.get(variationId)?.id.toString() ?? 'Выбрать'}
                     onChange={handleDropDown}>
                     {Array.from(variations.keys()).map((value) => {
                         return (
@@ -179,7 +179,7 @@ const Product: FC<ProductProps> = (props: ProductProps) => {
                                         <div
                                             key={data.id}
                                             className={s.properties_container_container}>
-                                            <span>{data.name}</span>
+                                            <span>{data.name}:</span>
                                             <span>{dataString}</span>
                                         </div>
                                     )
