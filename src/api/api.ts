@@ -4,7 +4,7 @@ import {ProductType, ApiProps, CategoryType, ProductImgType, ProductVariationsTy
 
 
 const api = axios.create({
-    baseURL: "https://test2.sionic.ru/api/"
+    baseURL: "https://test2.sionic.ru/api"
 })
 
 
