@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import Product from "./ui/pages/Product/Product";
 import Cart from "./ui/pages/Cart/Cart";
 import OrdersHistory from "./ui/pages/OrdersHistory/OrdersHistory";
@@ -53,7 +53,7 @@ function App() {
     }, [dispatch])
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <span style={{display: 'flex'}}>
                 <div className={s.wrapper}>
                     <NavBar/>
@@ -75,7 +75,7 @@ function App() {
             </span>
             <Footer/>
 
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
