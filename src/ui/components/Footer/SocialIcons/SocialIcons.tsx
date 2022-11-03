@@ -8,7 +8,7 @@ import SocialIcon from "./Icon";
 const SocialIcons: FC = () => {
     return (
         <>
-            <div>Присоединяйтесь к нам</div>
+            <div style={{padding:'10px'}}>Присоединяйтесь к нам</div>
             <div className={style.socialIconsBlock}>
                 <SocialIcon icon={fb} url="https://www.facebook.com/"/>
                 <SocialIcon icon={inst} url="https://www.instagram.com/"/>

@@ -36,11 +36,9 @@ function App() {
             dispatch(hydrateOrdersHistory(JSON.parse(ordersHistory)))
         }
 
-
         productsApi.getProductVariationProperties({
             sort: ["id", 'ASC']
         }).then((data) => {
-
             setVariationsProperties([...data])
         })
         productsApi.getProductVariationPropertyListValues({}).then(value => {
@@ -69,12 +67,11 @@ function App() {
                 <Route path={"/order-history"} element={<OrdersHistory/>}/>
                    </Routes>
                 </div>
-                                <div className={adsStyle.sidebar}>
-                                    <AdsBar/>
-                                </div>
+                <div className={adsStyle.sidebar}>
+                   <AdsBar/>
+                </div>
             </span>
             <Footer/>
-
         </HashRouter>
     );
 }
